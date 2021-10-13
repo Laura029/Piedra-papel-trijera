@@ -1,0 +1,244 @@
+body{
+	background-image: url("fondo.jpg");
+}
+
+.ct{
+		position: absolute;
+		left: 20%;
+		top: 0%;
+		width: 55%;
+		height: 15%;
+		background: transparent;
+		color: red;
+		font-family: "titulop4";
+		font-size: 450%;
+	}
+
+.cmj{
+		position: absolute;
+		left: 20%;
+		top: 25%;
+		width: 25%;
+		height: 12%;
+		background: white;
+		border-style: double;
+		border-color: #ffccff;
+		color: black;
+		font-family: titulop2;
+		font-size: 275%;
+	}
+.cmm{
+		position: absolute;
+		left: 50%;
+		top: 25%;
+		width: 25%;
+		height: 12%;
+		background: white;
+		border-style: double;
+		border-color: #ffccff;
+		color: black;
+		size: 75%;
+		font-family: titulop2;
+		font-size: 275%;
+	}
+.bt{
+		position: absolute;
+		left: 10%;
+		top: 55%;
+		width: 25%;
+		height: 25%;
+		background: #FCE17A;
+		color: black;
+		font-family: titulop1;
+		font-size: 375%;
+}
+
+.br{
+		position: absolute;
+		left: 40%;
+		top: 55%;
+		width: 25%;
+		height: 25%;
+		background: #FCE17A;
+		color: black;
+		font-family: titulop1;
+		font-size: 375%;
+}
+
+.bp{
+		position: absolute;
+		left: 70%;
+		top: 55%;
+		width: 25%;
+		height: 25%;
+		background: #FCE17A;
+		color: black;
+		font-family: titulop1;
+		font-size: 375%;
+}
+
+.marcador{
+		position: absolute;
+		left: 14%;
+		top: 10%;
+		width: 0%;
+		height: 75%;
+		background: #ffccff;
+		color: black;
+		size: 75%;
+}
+.marcador2{
+		position: absolute;
+		left: 14%;
+		top: 25%;
+		width: 75%;
+		height: 65%;
+		background: white;
+		color: black;
+		size: 75%;
+}
+
+.marcador3{
+		position: absolute;
+		left: 2%;
+		top: 5%;
+		width: 15%;
+		height: 40%;
+		background: blue;
+		color: black;
+		size: 75%;
+}
+
+.marcador4{
+		position: absolute;
+		right: 2%;
+		top: 5%;
+		width: 15%;
+		height: 40%;
+		background: blue;
+		color: black;
+		size: 75%;
+}
+
+.marcador5{
+		position: absolute;
+		left: 42%;
+		top: 30%;
+		width: 15%;
+		height: 8%;
+		background: white;
+		color: black;
+		size: 75%;
+		font-family: titulop4;
+		font-size: 275%;
+}
+
+.marcador6{
+		position: absolute;
+		left: 40%;
+		top: 45%;
+		width: 15%;
+		height: 8%;
+		background: white;
+		color: black;
+		size: 75%;
+		font-family: titulop2;
+		font-size: 275%;
+}
+
+.marcador7{
+		position: absolute;
+		left: 55%;
+		top: 45%;
+		width: 15%;
+		height: 8%;
+		background: white;
+		color: black;
+		size: 75%;
+		font-family: titulop2;
+		font-size: 275%;
+}
+
+.marcador8{
+		position: absolute;
+		left: 42%;
+		top: 65%;
+		width: 15%;
+		height: 8%;
+		background: orange;
+		color: transparent;
+		size: 75%;
+		font-family: titulop1;
+		font-size: 200%;
+		z-index: 1;
+}
+
+.resultado{
+		position: absolute;
+		left: 14%;
+		top: 10%;
+		width: 0%;
+		height: 75%;
+		background-color: pink;
+		color: black;
+		size: 75%;
+}
+
+.titulo{
+		position: absolute;
+		left: 35%;
+		top: 35%;
+		width: 55%;
+		height: 15%;
+		color: transparent;
+		font-family: titulop1;
+		font-size: 600%;
+
+	}
+.ci{
+		position: absolute;
+		left: 42%;
+		top: 65%;
+		width: 10%;
+		height: 8%;
+		color: white;
+	background: white;
+	border-style: double;
+	font-family: titulop2;
+	font-size: 25px;
+	animation-name: input;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	}
+.imag{
+	position: absolute;
+		left: -18%;
+		top: -35%;
+		width: 80%;
+		height: 150%;
+}
+@font-face{
+	font-family: titulop4;
+	src: url(titulo4.ttf);
+}
+@font-face{
+	font-family: titulop1;
+	src: url(titulo1.otf);
+}
+@font-face{
+	font-family: titulop2;
+	src: url(titulo2.otf);
+}
+@font-face{
+	font-family: titulop3;
+	src: url(titulo3.ttf);
+}
+@keyframes input{
+	0%{ border-color: #FD1532; }
+	16%{ border-color: #FAED27; }
+	32%{ border-color: #55FF00; }
+	48%{ border-color: #00FFC5; }
+	64%{ border-color: #0036FF; }
+	80%{ border-color: #4D00FF; }
+	96%{ border-color: #F300FF; }
+}
